@@ -47,7 +47,7 @@ export function deleteCompApi(id){
             .catch(err => {return err});
 }
 
-//preguntar a Danny
+//preguntar metodo a Danny
 export function getCompByUserApi(data){
     const url = `${urlBackend}control_seguimiento/LISTAR_COMPROMISOS`;
     const params = {
